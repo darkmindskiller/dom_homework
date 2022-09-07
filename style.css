@@ -66,6 +66,11 @@ nav {
     background-repeat: no-repeat;
     background-position: right;
 }
+#main-menu li:focus {
+    background-image: url(images/wrarrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 /*Сериалы*/
 #main {
