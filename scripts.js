@@ -1,4 +1,3 @@
-console.log('hello');
 const series = [
     ['popular',
     'Разберитесь с деньгами',
@@ -38,12 +37,14 @@ const series = [
     ]
 
 ];
+
 //Изменяет популярное
 function popular(event) {
     document.getElementById("title").textContent = series[0][1];
     document.getElementById("image").innerHTML = series[0][2];
     document.getElementById("description").textContent = series[0][3];
 };
+
 document.getElementById("popular").addEventListener("click", popular);
 
 //Изменяет Детективы
@@ -63,7 +64,6 @@ function comedy(event) {
 };
 
 document.getElementById("comedy").addEventListener("click", comedy);
-
 
 //Изменяет Криминал
 function criminal(event) {
@@ -98,10 +98,3 @@ function mainInfo(event) {
     document.getElementById("description").textContent = series[6][3];
 };
 document.getElementById("main-info").addEventListener("click", mainInfo);
-
-
-
-//document.addeventListener("DOMContentLoaded", 
-// function(event) {
-//        console.log(series[0][1]);
-//  });
